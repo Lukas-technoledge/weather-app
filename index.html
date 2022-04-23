@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        
+        <section>
+            <div class="weatherInfo">
+
+                <section>
+                    <header>
+                        <div> 
+                            <h2>LukasTechWeather</h2>
+                        </div>
+                    </header>
+                </section>
+
+                <section>
+                    <div class="form">
+                        <form>
+                            <label for="city">Enter a location for weather information</label><br>
+                            <input type="text" name="city" >
+                       </form>
+                    </div>
+                </section>
+
+            </div>
+        </section>
+
+        <section>
+            <div class="weather d-none" id="weather">
+                
+                <div class="weatherImg">
+                    <img src="https://via.placeholder.com/300" alt="" class="time">
+                </div>
+
+                <div class="temperature">
+
+                    <div class="cityName">
+                        <h4>CITY NAME</h4>
+                        <p>WEATHER CONDITION</p>
+                    </div>
+
+                    <div class="degrees">
+                        <span>Temp</span>
+                        <span>&deg;c</span>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+
+    <script src="./assets/forecast.js"></script>
+    <script src="./assets/app.js"></script>
+</body>
+</html>
