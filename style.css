@@ -19,9 +19,12 @@ body {
 
 .weatherImg {
     display: flex;
-    justify-content: center;
-    max-width: 100%;
+    justify-content: center;   
     height: 300px;
+}
+
+.weatherImg> img {
+    max-width: 100%;
 }
 
 header {
